@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de produtos</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <main>
+        <table id="table">
+            <thead>
+                <tr class="linha cabecalho">
+                    <th class="coluna">Produto</th>
+                    <th class="coluna">Preço</th>
+                    <th class="coluna">Quantidade em estoque</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+        <div id="adicionar">
+            <h3 class="titulo-adicionar">Adicionar produto</h3>
+            <input type="text" id="prod" placeholder="Nome do produto" required>
+            <input type="number" id="preco" placeholder="Preço" required>
+            <input type="number" id="quant" placeholder="Quantidadde em estoque" required>
+            <button type="submit" id="button" value="Adicionar" onclick="adicionar()">Adicionar</button>
+        </div>
+    </main>
+    <script src="/js/index.js"></script>
+</body>
+
+</html>

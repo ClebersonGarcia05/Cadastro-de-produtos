@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table, th, td{
+    border: solid 1px;
+    border-collapse: collapse;
+}
+#table{
+    width: 100%;
+}
+.linha{
+    height: 30px;
+    background-color: rgb(223, 192, 236);
+    font: 14pt Arial;
+}
+.coluna{
+    width: 33%;
+    background-color: rgb(247, 213, 213);
+}
+#adicionar{
+    margin: 20px 0px 0px 0px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.titulo-adicionar{
+    font: 18pt Arial;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+#prod, #preco, #quant{
+    height: 20px;
+    border-radius: 2px;
+    border: solid 1px;
+    margin-bottom: 10px;
+}
+#button{
+    height: 20px;
+    width: 80px;
+}
